@@ -88,7 +88,7 @@ const CreateNFT: NextPage = () => {
   // IPFS上传处理
   const handleIpfsUpload = async () => {
     if (!image) {
-      notification.error("请选择要上传的图片");
+      notification.error("请选择要上传的图片 ");
       return;
     }
 

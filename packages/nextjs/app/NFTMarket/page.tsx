@@ -99,7 +99,7 @@ const AllNFTs: NextPage = () => {
 
   const handlePurchase = async () => {
     if (!selectedNft || !connectedAddress) {
-      notification.error({ message: "请先连接钱包" });
+      notification.error({ message: "请先连接钱包 " });
       return;
     }
 
