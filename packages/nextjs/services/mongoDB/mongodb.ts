@@ -11,7 +11,7 @@ const DB_URI = MONGODB_URI.endsWith('/')
   ? `${MONGODB_URI}NFTS`
   : `${MONGODB_URI}/NFTS`;
 
-console.log('MongoDB连接配置:', {
+console.log('MongoDB连接配置 :', {
   uri: DB_URI,
   isDefault: !process.env.MONGODB_URI
 });

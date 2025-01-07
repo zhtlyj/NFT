@@ -336,7 +336,7 @@ const CreateNFT: NextPage = () => {
       // 关闭图片列表模态框
       setIsImageListOpen(false);
       
-      notification.success("Image selected successfully");
+      notification.success("Image selected  successfully");
     } catch (error) {
       notification.error("Failed to load selected image");
       console.error(error);

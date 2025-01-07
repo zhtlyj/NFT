@@ -46,7 +46,7 @@ const NFTCollection: NextPage = () => {
       }
 
       const data = await response.json();
-      console.log('从数据库获取的NFT数据:', data);
+      console.log('从数据库获取的NFT数据 : ', data);
       
       if (data.nfts) {
         setCreatedNFTs(data.nfts);

@@ -40,7 +40,7 @@ export async function PUT(request: Request) {
 
     if (!nft) {
       return new NextResponse(
-        JSON.stringify({ message: 'NFT不存在' }),
+        JSON.stringify({ message: 'NFT不存在 ' }),
         { 
           status: 404,
           headers: { 'Content-Type': 'application/json' }

@@ -111,7 +111,7 @@ export const MyHoldings = ({ filteredNFTs }: MyHoldingsProps) => {
     } catch (error) {
       console.error('操作失败:', error);
       notification.error({
-        message: checked ? '上架失败' : '下架失败',
+        message: checked ? '上架失败 ' : '下架失败',
         description: error instanceof Error ? error.message : '未知错误'
       });
       // 恢复之前的状态

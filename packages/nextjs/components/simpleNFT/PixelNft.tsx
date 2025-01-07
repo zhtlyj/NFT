@@ -48,7 +48,7 @@ export const PixelNft: React.FC<PixelNftProps> = ({ originalImage, onPixelated }
         h /= 6;
       }
 
-      // 调整亮度
+      // 调整 亮度
       l = Math.max(0, Math.min(1, l + lightness));
 
       // 转回RGB

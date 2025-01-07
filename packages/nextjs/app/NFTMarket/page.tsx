@@ -59,7 +59,7 @@ const AllNFTs: NextPage = () => {
       const response = await fetch('/api/Nft');
       
       if (!response.ok) {
-        throw new Error('获取NFT数据失败');
+        throw new Error('获取NFT数据失败 ');
       }
 
       const data = await response.json();

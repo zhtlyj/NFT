@@ -74,7 +74,7 @@ export async function PUT(request: Request) {
     const data = await request.json();
     const { id, isListed, price, owner } = data;
 
-    console.log('1. 收到PUT请求数据:', { 
+    console.log('1. 收到PUT请求数据 :', { 
       id, 
       isListed, 
       isListedType: typeof isListed,

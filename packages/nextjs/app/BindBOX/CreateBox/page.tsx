@@ -71,7 +71,7 @@ const CreateBox: NextPage = () => {
           selected: false
         }));
 
-      console.log('获取到的用户NFT:', userNFTs);
+      console.log('获取到的用户NFT :', userNFTs);
       setAvailableNFTs(userNFTs);
     } catch (error) {
       console.error('获取NFT数据失败:', error);

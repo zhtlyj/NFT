@@ -110,7 +110,7 @@ export const NFTCard = ({ nft, onTransferSuccess }: NFTCardProps) => {
         <div className="card-actions justify-end">
           <button
             className="btn btn-secondary btn-md px-8 tracking-wide"
-            onClick={wrapInTryCatch(handleTransfer, "转移NFT时发生错误")}
+            onClick={wrapInTryCatch(handleTransfer, "转移NFT时发生错误 ")}
             style={{ margin: "0px auto" }}
           >
             发送
